@@ -1,0 +1,114 @@
+# SentinelPay Features
+
+1. Version 1 (MVP)
+
+2. Version 2
+
+3. Future Ideas
+
+4. Out of Scope
+
+
+# Version 1 Features
+
+Version 1 is intentionally small. Every new feature must answer two questions before being added:
+
+Does it solve a real problem for the user?
+Can it be realistically built within the current scope?
+
+
+- User Login
+- User Registration
+- Dashboard
+- Transactions
+- Risk Score
+- Rule Engine
+- Transaction Details
+
+>Dashboard
+
+The dashboard should show:
+
+Total Transactions
+High Risk Transactions
+Medium Risk Transactions
+Low Risk Transactions
+Recent Transactions
+
+
+>Transaction Management
+
+Add Transaction (for demo/testing)
+View Transactions
+Search Transactions
+Filter Transactions
+View Transaction Details
+
+>Rule Engine
+
+Rules such as:
+
+High Amount
+New Merchant
+Night-Time Transaction
+First Transaction
+Multiple Failed Attempts (we can simulate this later)
+
+
+>Investigation Page
+
+When an analyst clicks a transaction, they should see:
+
+Transaction Information
+Risk Score
+Triggered Rules
+Merchant Information
+User Information (simulated)
+Investigation Status
+
+
+>Reports (Simple)
+
+Daily Transaction Count
+High Risk Count
+Fraud Distribution
+
+
+##Version 2
+
+>AI explanation
+
+
+>Behavioral risk module
+
+Signals like:
+
+Long hesitation before confirming
+Beneficiary edited multiple times
+High-value first-time transfer
+
+>Policy Assistant (RAG)
+
+
+>Future Ideas
+
+Ideas include:
+
+Machine Learning risk prediction
+Graph visualization of connected fraud cases
+Real-time transaction monitoring
+Mobile app
+Email alerts
+Role-based permissions
+Audit logs
+Case management
+Fraud heat map
+API integrations with payment gateways
+
+##Out of Scope
+
+Process real payments
+Connect to live bank accounts
+Replace existing bank fraud systems
+Guarantee fraud detection
+Monitor live customer devices

@@ -1,0 +1,13 @@
+Decision #1
+Only admins can create analyst accounts.
+
+Reason:
+This is an internal banking tool, not a public application.
+
+--------------------------------------------------
+
+Decision #2
+After successful login, users land on the dashboard.
+
+Reason:
+Analysts need an overview before investigating individual transactions.

@@ -1,0 +1,61 @@
+# SentinelPay
+
+## What is SentinelPay?
+
+SentinelPay is a payment fraud investigation platform designed to help fraud analysts understand and investigate suspicious financial transactions. Instead of simply assigning a risk score, SentinelPay explains why a transaction appears suspicious using rule-based analysis. Future versions will include AI-powered explanations and intelligent document search to support better fraud investigations.
+
+---
+
+## Why am I building SentinelPay?
+
+Modern payment systems process thousands of transactions every minute. Fraud detection systems can identify suspicious transactions, but analysts often spend valuable time understanding why those transactions were flagged. This investigation process can be slow and requires checking multiple pieces of information before making a decision. 
+
+---
+##Solution
+
+SentinelPay provides a single platform where fraud analysts can review transactions, view risk scores, understand which fraud rules were triggered, and investigate suspicious activity efficiently. The platform is designed to become more intelligent over time by adding AI explanations and document-based assistance
+
+---
+
+## Who will use SentinelPay?
+
+Primary Users
+
+Primary Users
+
+• Fraud Analysts
+
+• Banks
+
+• FinTech Companies
+
+Secondary Users
+
+• Students
+
+• Cybersecurity Learners
+
+• Researchers
+
+---
+
+## What problem does it solve?
+
+Fraud analysts often receive hundreds of alerts every day. Existing systems can assign risk scores, but understanding why a transaction was flagged can take time. SentinelPay aims to organize transaction information, apply fraud rules, and help analysts investigate suspicious payments more efficiently.
+---
+
+##Version 1 goals
+
+Version 1 focuses on:
+
+- User Authentication
+- Transaction Management
+- Rule-Based Fraud Detection
+- Dashboard
+- Transaction Investigation
+
+---
+
+## Long-Term Goal
+
+The long-term goal of SentinelPay is to become an intelligent payment risk investigation platform capable of combining transaction analysis, behavioral analysis, AI explanations, and policy-based reasoning to assist fraud analysts in making faster and more informed decisions.
