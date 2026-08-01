@@ -7,3 +7,6 @@ class UserCreate(BaseModel):
     password: str
     department: str | None = None
     role: str
+class UserLogin(BaseModel):
+    email: EmailStr
+    password: str
