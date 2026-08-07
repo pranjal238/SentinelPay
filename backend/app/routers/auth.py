@@ -9,7 +9,8 @@ from app.utils.security import (
     hash_password,
     verify_password,
     create_access_token,
-    get_current_user
+    get_current_user,
+    require_roles
 )
 
 router = APIRouter(
@@ -100,4 +101,11 @@ def get_profile(
         "email": current_user.email,
         "department": current_user.department,
         "role": current_user.role
+    }
+@router.get("/admin")
+def admin_dashboard(
+    current_user: User = Depends(require_roles("Admin"))
+):
+    return {
+        "message": f"Welcome Admin {current_user.name}"
     }

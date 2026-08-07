@@ -85,3 +85,18 @@ def get_current_user(
         )
 
     return user
+def require_roles(*roles):
+
+    def role_checker(
+        current_user: User = Depends(get_current_user)
+    ):
+
+        if current_user.role in roles:
+            return current_user
+
+        raise HTTPException(
+            status_code=403,
+            detail="Not enough permissions"
+        )
+
+    return role_checker
